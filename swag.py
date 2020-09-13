@@ -15,7 +15,7 @@ class SwagBot:
         self.driver.find_element_by_xpath("//input[@name=\"password\"]").send_keys(pw)
         sleep(2)
         self.driver.find_element_by_xpath('//button[@id="loginBtn"]').click()
-        sleep(100)
+        sleep(100) # time for you to do the thing that proves you are not a bot
 
     def survey(self):
         self.driver.find_element_by_xpath("//a[contains(@href,'/surveys')]").click()
