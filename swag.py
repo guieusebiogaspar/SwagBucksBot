@@ -33,5 +33,7 @@ class SwagBot:
             self.driver.find_element_by_xpath("/html/body/div[4]/div[2]/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/div/div[2]/div/div[2]/button").click()
             #self.driver.find_elements_by_class_name("surveyDashboardCTA sbCta sbBgPrimaryColor").click()
             sleep(x)
+            print(i)
+            
 my_bot = SwagBot(*your username*, *your password*)
 my_bot.survey()
